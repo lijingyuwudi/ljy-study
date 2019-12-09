@@ -1,0 +1,26 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Fri Nov 15 04:37:06 2019
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=9d5a31e5-9e66-4870-aed5-e231ca87708a /boot                   xfs     defaults        0 0
+UUID=1BAE-BA35          /boot/efi               vfat    umask=0077,shortname=winnt 0 0
+/dev/mapper/centos-home /home                   xfs     defaults        0 0
+/dev/mapper/centos-var_log /var/log                xfs     defaults        0 0
+/dev/mapper/centos-var_log_audit /var/log/audit          xfs     defaults        0 0
+/dev/mapper/centos-var_tmp /var/tmp                xfs     defaults        0 0
+UUID=841d9dfa-5b71-4033-bd82-ac6d7ab7f48b /mnt/locals/consul/volume0 	 xfs 	 defaults,noatime 	 0 	 0
+UUID=49587b2f-6693-472e-9369-2217b85eef02 /mnt/locals/zookeepers/volume0 	 xfs 	 defaults,noatime 	 0 	 0
+UUID=64def039-115a-474f-bdaf-57f99fd79ca3 /mnt/locals/alertmanager/volume0 	 xfs 	 defaults,noatime 	 0 	 0
+UUID=9f820dbd-55b0-4ffb-8494-d8d7324bb620 /mnt/locals/kafkas/volume0 	 xfs 	 defaults,noatime 	 0 	 0
+UUID=6552eb6b-4b28-4a76-940a-4c90b39dccf5 /mnt/locals/rocketmq/volume0 	 xfs 	 defaults,noatime 	 0 	 0
+UUID=45f01365-c451-477d-a79b-09bc28833d94 /mnt/locals/prometheus/volume0 	 xfs 	 defaults,noatime 	 0 	 0
+UUID=9dc09e1e-2165-4d67-9019-f66186f0a023 /mnt/locals/engine/volume0 	 xfs 	 defaults,noatime 	 0 	 0
+UUID=3f4861cb-962e-407f-b93e-914993256293 /mnt/locals/engine/volume1 	 xfs 	 defaults,noatime 	 0 	 0
+UUID=55db3d9c-83c8-473f-9c9a-62acbefbad62 /mnt/locals/cassandras/volume0 	 xfs 	 defaults,noatime 	 0 	 0
+UUID=96f7fe7e-8376-4adc-a8b1-b76a13582424 /mnt/locals/cassandras/volume1 	 xfs 	 defaults,noatime 	 0 	 0
+UUID=20fe383f-7c4c-4dea-8168-a2f9c38d8de0 /mnt/locals/minio/volume0 	 xfs 	 defaults,noatime 	 0 	 0
